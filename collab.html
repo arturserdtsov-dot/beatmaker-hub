@@ -1,4 +1,4 @@
-<nav>
+<center><nav>
     <p><b>Навігація:</b></p>
     <a href="index.html">Головна</a> |
     <a href="glossary.html">Терміни</a> |
@@ -7,13 +7,33 @@
     <a href="drumkits.html">Drum Kits</a> |
     <a href="collab.html">Колаборації</a>
 </nav>
-<hr><h2>Знайди партнера для спільного треку</h2>
-<form action="#">
-    <label>Твій нікнейм:</label><br>
-    <input type="text" name="nickname"><br>
-    <label>Жанр:</label><br>
-    <input type="text" name="genre"><br>
-    <button type="submit">Подати заявку</button>
+<center>
+    <h1>Пошук співавторів</h1>
+    <p>Тут ти можеш знайти бітмейкера або вокаліста для спільної роботи.</p>
+</center>
+<hr>
+
+<form>
+    <fieldset>
+        <legend>Твоя анкета</legend>
+        <label>Твій нікнейм:</label><br>
+        <input type="text" name="nick" placeholder="Наприклад, dxubleyou"><br><br>
+
+        <label>Жанр, у якому працюєш:</label><br>
+        <select name="genre">
+            <option value="phonk">Brazilian Phonk</option>
+            <option value="hardtekk">Hardtekk</option>
+            <option value="trap">Trap / Drill</option>
+            <option value="hiphop">Rap</option>
+        </select><br><br>
+
+        <label>Посилання на твої роботи (SoundCloud/Spotify):</label><br>
+        <input type="url" name="link"><br><br>
+
+        <label>Повідомлення для партнера:</label><br>
+        <textarea rows="4" cols="50">Привіт! Шукаю когось для створення агресивного фонк-треку...</textarea><br><br>
+
+        <button type="submit">Опублікувати запит</button> 
+        <button type="reset">Очистити форму</button> 
+    </fieldset>
 </form>
-
-
