@@ -1,12 +1,17 @@
 <center><nav>
+	<ul>
     <p><b>Навігація:</b></p>
-    <a href="index.html">Головна</a> |
-    <a href="glossary.html">Терміни</a> |
-    <a href="plugins.html">Плагіни</a> |
-    <a href="trends.html">Тренди</a> |
-    <a href="drumkits.html">Drum Kits</a> |
-    <a href="collab.html">Колаборації</a>
+    <li><a href="index.html">Головна</a></li> |
+    <li><a href="glossary.html">Терміни</a></li> |
+    <li><a href="plugins.html">Плагіни</a></li> |
+    <li><a href="trends.html">Тренди</a></li> |
+    <li><a href="drumkits.html">Drum Kits</a></li> |
+    <li><a href="collab.html">Колаборації</a></li>
+	</ul>
 </nav>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
 <center>
     <h1>Пошук співавторів</h1>
     <p>Тут ти можеш знайти бітмейкера або вокаліста для спільної роботи.</p>
@@ -17,10 +22,10 @@
     <fieldset>
         <legend>Твоя анкета</legend>
         <label>Твій нікнейм:</label><br>
-        <input type="text" name="nick" placeholder="Наприклад, dxubleyou"><br><br>
+        <input type="text" name="nick" class="background-collab"  placeholder="Наприклад, dxubleyou"><br><br>
 
         <label>Жанр, у якому працюєш:</label><br>
-        <select name="genre">
+        <select name="genre" class="background-collab">
             <option value="phonk">Brazilian Phonk</option>
             <option value="hardtekk">Hardtekk</option>
             <option value="trap">Trap / Drill</option>
@@ -28,10 +33,10 @@
         </select><br><br>
 
         <label>Посилання на твої роботи (SoundCloud/Spotify):</label><br>
-        <input type="url" name="link"><br><br>
+        <input type="url" name="link" class="background-collab"><br><br>
 
         <label>Повідомлення для партнера:</label><br>
-        <textarea rows="4" cols="50">Привіт! Шукаю когось для створення агресивного фонк-треку...</textarea><br><br>
+        <textarea rows="4" cols="50" class="background-collab">Привіт! Шукаю когось для створення агресивного фонк-треку...</textarea><br><br>
 
         <button type="submit">Опублікувати запит</button> 
         <button type="reset">Очистити форму</button> 
